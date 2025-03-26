@@ -30,7 +30,7 @@ In this section, I analyze climate data using Python and SQLAlchemy:
   * Visualize precipitation trends over time
   * Calculate summary statistics
 
-  ![1741318557296](image/README/Histogram_README.md_image.png)
+ 
 * Perform station analysis:
 
   * Calculate the total number of stations
@@ -38,7 +38,7 @@ In this section, I analyze climate data using Python and SQLAlchemy:
   * Analyze temperature data for the most active station
   * Create a histogram of temperature observations
 
-  ![1741318534085](image/README/Second_diagram.png)
+
 
 ### Part 2: Flask API Development
 
@@ -49,7 +49,6 @@ In this section, I design and implement a Flask API with the following routes:
 * Stations route (`/api/v1.0/stations`): Returns JSON list of stations
 * Temperature Observations route (`/api/v1.0/tobs`): Returns temperature data for the most active station
 * Start/End Date routes (`/api/v1.0/<start>` and `/api/v1.0/<start>/<end>`): Returns temperature statistics for specified date ranges
-* [Station Analysis ](http://127.0.0.1:5000/api/v1.0/station-analysis): **/api/v1.0/station-analysis**
 
 ## Tools and Technologies Used
 
